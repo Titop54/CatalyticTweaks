@@ -1,4 +1,4 @@
-package com.catalytictweaks.catalytictweaksmod.mixin;
+package com.catalytictweaks.catalytictweaksmod.mixin.pipez;
 
 import com.catalytictweaks.catalytictweaksmod.Config;
 import com.mojang.logging.LogUtils;

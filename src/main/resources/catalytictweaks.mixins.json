@@ -4,7 +4,7 @@
   "package": "com.catalytictweaks.catalytictweaksmod.mixin",
   "refmap": "mixins.catalytictweaks.refmap.json",
   "mixins": [
-    "PipezMixin",
+    "pipez.PipezMixin",
     "mmr.controller.MachineControllerEntityMixin",
     "mmr.controller.MachineProcessorCoreAccessor",
     "mmr.controller.MachineProcessorCoreMixin",
