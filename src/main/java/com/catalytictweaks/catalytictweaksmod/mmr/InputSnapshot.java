@@ -21,7 +21,6 @@ import es.degrassi.mmreborn.common.machine.component.FluidComponent;
 import es.degrassi.mmreborn.common.machine.component.FuelComponent;
 import es.degrassi.mmreborn.common.machine.component.ItemComponent;
 import es.degrassi.mmreborn.common.machine.component.RedstoneComponent;
-import es.degrassi.mmreborn.common.manager.ComponentManager;
 import es.degrassi.mmreborn.common.registration.ComponentRegistration;
 import es.degrassi.mmreborn.mekanism.common.crafting.requirement.RequirementChemical;
 import es.degrassi.mmreborn.mekanism.common.machine.component.ChemicalComponent;

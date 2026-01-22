@@ -8,6 +8,8 @@
     "mmr.MachineProcessorCoreAccessor",
     "mmr.FluidComponentAccessor",
     "mmr.FluidComponentMixin",
+    "mmr.EnergyHatchMixin",
+    "mmr.EnergyComponentMixin",
     "mmr.BlockIngredientMixin",
     "mmr.ComponentManagerMixin",
     "mmr.RecipeRequirementMixin",

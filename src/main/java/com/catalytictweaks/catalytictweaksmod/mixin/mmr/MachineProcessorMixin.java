@@ -78,4 +78,15 @@ public abstract class MachineProcessorMixin
             this.tile.setStatus(MachineStatus.IDLE);
         }
     }
+
+    @Overwrite
+    public void setMachineInventoryChanged() {
+
+        if (this.tile.getStatus().isCrafting()) {
+            return;
+        }
+
+        this.tile.setStatus(MachineStatus.IDLE);
+        this.cores.forEach(MachineProcessorCore::setComponentChanged);
+    }
 }
